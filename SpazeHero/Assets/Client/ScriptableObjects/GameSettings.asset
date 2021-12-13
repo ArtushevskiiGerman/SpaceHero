@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e632a8386fdde774e96fcc6e6d5dfe0d, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  PlayerPrefab: {fileID: 8756307720779305832, guid: 6d922b3566164114380ab2c0c454769f, type: 3}
+  PlayerHealth: 100
+  PlayerSpeed: 2500
+  PlayerTag: Player
+  BulletPrefab: {fileID: 6269227803159902743, guid: 7abe73595c7b2194ea6655ad22f013d2, type: 3}
+  BulletSpeed: 10000
+  EnemyPrefab: {fileID: 2043807476608903364, guid: 6ff8ee8223eb15a4f817e6cd5f7bab68, type: 3}
+  EnemySpeed: 2000
+  EnemyDamage: 20
+  EnemyShootRate: 0.75
+  EnemySpawnRate: 1.15
+  DistanceToPlayer: 11
+  SkyboxMaterial: {fileID: 2100000, guid: 246d4b1ad4a63004d8fcf3949494e5b3, type: 2}
+  SkyboxRotationSpeed: 5
